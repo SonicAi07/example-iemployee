@@ -1,0 +1,53 @@
+.animation_up {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.animation_up .p1 {
+    background: #1273ba;
+    width: 10px;
+    height: 10px;
+    color: #1273ba;
+    border-radius: 50%;
+    animation: mover2 4s infinite linear;
+    transition: 2s;
+}
+
+.animation_up .p2 {
+    background: #1273ba;
+    width: 10px;
+    height: 10px;
+    color: #1273ba;
+    border-radius: 50%;
+    animation: mover 4s infinite linear;
+    transition: 2s;
+}
+
+@keyframes mover {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: 20px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+@keyframes mover2 {
+    0% {
+        margin-top: 20px;
+    }
+
+    50% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 20px;
+    }
+}
